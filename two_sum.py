@@ -45,3 +45,6 @@ class Solution:
             # So when i=1, element=4, the diff becomes 3 which would be present in the num_dict because we had added it in the last iteration, and goes into the if condition, hence returns [0,1] => num_dict[3] (which is 0) and the then 'i' which would be 1
             num_dict[element] = i
         return []
+
+
+        
